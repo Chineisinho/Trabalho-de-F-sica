@@ -12,7 +12,7 @@ with st.container():
     
     st.subheader('Aqui está a filmagem colorida:')
 
-    video_file = open("20251021_114321.mp4", "rb")
+    video_file = open("20251021 114321.mp4", "rb")
     video_bytes = video_file.read()
     st.video(video_bytes)
 
@@ -21,4 +21,5 @@ with st.container():
 
     st.subheader('Aqui está como era o funcionamento da câmera:')
    
+
     st.image("Camera.jpg", caption="Câmera Technicolor funcionamento")
